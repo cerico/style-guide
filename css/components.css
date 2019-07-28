@@ -1,0 +1,113 @@
+
+h1-label {
+  font-family: "Ideal Sans SSm A", "Ideal Sans SSm B";
+  font-style: normal;
+  font-weight: 300;
+  color: #0D3B49;
+  padding-bottom: 15px;
+  font-size: 27px !important;
+  line-height: 33px;
+  letter-spacing: -0.5px;
+}
+
+.santa {
+  font-size: 42px;
+  line-height: 52px; 
+}
+
+.regular {
+  font-family: "Whitney SSm A", "Whitney SSm B";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 21px;
+  color: #333333;
+}
+
+.main {
+  max-width:  400px
+}
+
+.santa-h3 {
+   font-size: 21px;
+  line-height: 27px;
+}
+
+.yes {
+  font-weight: 600;
+  color: #333333;
+  font-size: 21px;
+  line-height: 27px;
+}
+
+.button{
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 18px;
+  border-radius: 0px;
+  margin-top: 10px;
+  opacity: 1;
+  color: #fff;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 21px;
+  padding: 12px 30px;
+  background-image: linear-gradient(-179deg, #1FC65D 3%, #98DE1B 99%);
+  border: 1px solid #189713;
+  -webkit-box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.35);
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.35);
+  padding: 15px 24px;
+}
+
+.input {
+  font-family: "Whitney SSm A", "Whitney SSm B";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 21px;
+  color: #333333;
+  margin-left:15px;
+}
+
+.group {
+  position: relative;
+  display: table;
+  border-collapse: separate;
+}
+
+.below {
+  font-weight: 600;
+  line-height: 24px;
+  font-size: 15px;
+  color: #097B9E;
+  margin-left: 15px;
+}
+
+.regular-input {
+  font-family: "Ideal Sans SSm A", "Ideal Sans SSm B";
+  font-weight: 200;
+  font-size: 72px;
+  line-height: 72px;
+  color: #0D3B49;
+  background: transparent;
+  border: none;
+  border-bottom-color: currentcolor;
+  border-bottom-style: none;
+  border-bottom-width: medium;
+  height: 95%;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-bottom: 1px solid #0D3B49;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: blocks;
+  font-size: 21px;
+  line-height: 24px;
+  padding: 9px 12px 9px 0;
+  border-bottom: 1px solid #0D3B49;
+  outline: none;
+  border-radius:0px;
+}

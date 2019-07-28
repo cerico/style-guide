@@ -1,18 +1,28 @@
 <html>
 <head>
+    <link href="https://fonts.googleapis.com/css?family=.|Oswald:light,normal,bold|Oswald:light,normal,bold|Oswald:light,normal,bold|Raleway:light,normal,bold|Roboto:light,normal,bold|Merriweather" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/components.css">
     <meta charset="utf-8">
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Style guide</title>
 </head>
 
-
 <body>
-
 <div class="container">
   <h1 class="title">Style Guide</h1>     
     <main role="main">
+      <div class="h2-holder">
+        <h2>TLDR / HOW TO USE</h2>
+      </div>
+      <div class="about">
+        <p>Copy and paste the html from the example you want into the React Component, then right click to get the associated css. This should then be turned into a styled component and added to the styled component overview page. Before taking any css from the style guide please check Styled Component Overview page to make sure one hasn't already been made available for use.</p>
+      </div>
+      <div class="no-h2-holder">
+        <h2>Components</h2>
+      </div>
       <div class="pattern" id="a-mail">
         <details class="pattern-details">
           <summary class="pattern-name">E01 - RightText</summary>
@@ -28,7 +38,8 @@
     &lt;div&gt;
   &lt;/div&gt;
 &lt;/section&gt;
-          </code></pre></div>
+            </code></pre>
+          </div>
           <div class="pattern-description"></div>
         </details>
 
@@ -47,50 +58,52 @@
     </div>
 
     <div class="pattern">
-        <details class="pattern-details">
-          <summary class="pattern-name">E02 - H1</summary>
-          <div class="highlight"><pre><code class="language-html" data-lang="html"></p>  &lt;label class"h1-label"&gt;What's your offer?&lt;/label&gt</code></pre></div>
-          <div class="pattern-description"></div>
-        </details>
+      <details class="pattern-details">
+        <summary class="pattern-name">E02 - H1</summary>
+        <div class="highlight"><pre><code class="language-html" data-lang="html"></p>  &lt;label class"h1-label"&gt;What's your offer?&lt;/label&gt</code></pre></div>
+        <div class="pattern-description"></div>
+      </details>
 
-        <div class="pattern-preview">
-          <label class="h1-label">What’s your offer?</label>
-        </div>
+      <div class="pattern-preview">
+        <label class="h1-label">What’s your offer?</label>
+      </div>
     </div>
 
     <div class="pattern">
-        <details class="pattern-details">
-          <summary class="pattern-name">E03 - PartyButton</summary>
-          <div class="highlight"><pre><code class="language-html" data-lang="html"></p>&lt;button class="button"&gt;&lt;span&gt;Get started&lt;/span&gt;&lt;/button&gt;</code></pre>
-          <div class="pattern-description"></div>
-        </details>
+      <details class="pattern-details">
+        <summary class="pattern-name">E03 - PartyButton</summary>
+        <div class="highlight"><pre><code class="language-html" data-lang="html"></p>&lt;button class="button"&gt;&lt;span&gt;Get started&lt;/span&gt;&lt;/button&gt;</code></pre>
+        <div class="pattern-description"></div>
+      </details>
 
-        <div class="pattern-preview">
-            <button class="button"><span>Get started</span></button>
-        </div>
+      <div class="pattern-preview">
+          <button class="button"><span>Get started</span></button>
+      </div>
     </div>
 
     <div class="pattern">
-        <details class="pattern-details">
-          <summary class="pattern-name">E04 - Input</summary>
-          <div class="highlight"><pre><code class="language-html" data-lang="html">
+      <details class="pattern-details">
+        <summary class="pattern-name">E04 - Input</summary>
+        <div class="highlight"><pre><code class="language-html" data-lang="html">
 &lt;div class="input"&gt;
   &lt;div class="group"&gt;
     &lt;input type="text" class="regular-input" value="Ryazan"&gt;
   &lt;/div&gt;
 &lt;/div&gt;
-          </code></pre>
-          <div class="pattern-description"></div>
-        </details>
+        </code></pre>
+        <div class="pattern-description"></div>
+      </details>
 
+      <div class="pattern-preview">
         <div class="input">
-            <div class="group">
-              <input type="text" class="regular-input" value="Ryazan">
-            </div>
+          <div class="group">
+            <input type="text" class="regular-input" value="Ryazan">
           </div>
-          <h2 class="below">City</h2>
-
-  </main>          
-</div>
+        </div>
+        
+        <h2 class="below">City</h2>
+      </div>
+    </main>          
+  </div>
 </body>
 </html>
