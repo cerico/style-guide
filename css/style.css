@@ -18,7 +18,7 @@ body {
 .title { font-size: 1.8em; text-align: right; margin: 1em 0 2em; }
 .pattern { background-color: #F9F7EE; margin: 2.5em 0; overflow: hidden; border-radius: 3px; color: #333; clear: both; }
 .pattern-preview { padding: 1.5em 0.8em; }
-.pattern-details .highlight { display: block; background-color: #F9F7EE; margin: 0; padding: 1em; color: #333; font-size: 0.85em; border-bottom: 1px solid #ccc; line-height: 1.2; }
+.pattern-details .highlight { display: block; background-color: #FCEDD9; overflow: scroll; margin: 0; padding: 1em; color: #333; font-size: 0.85em; border-bottom: 1px solid #ccc; line-height: 1.2; }
 .pattern-name {
   color: #fff;
   text-decoration: none;
