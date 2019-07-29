@@ -23,7 +23,7 @@
       <div class="no-h2-holder">
         <h2>Components</h2>
       </div>
-      <div class="pattern" id="a-mail">
+      <div class="pattern" id="a">
         <details class="pattern-details">
           <summary class="pattern-name">E01 - RightText</summary>
           <div class="highlight">
@@ -103,6 +103,43 @@
         
         <h2 class="below">City</h2>
       </div>
+    </div>
+      <div class="no-h2-holder">
+        <h2>Styled Components</h2>
+      </div>
+      <div class="pattern" id="a-mail">
+        <details class="pattern-details">
+          <summary class="pattern-name">S01 - RightText</summary>
+          <div class="highlight">
+            <pre><code class="language-html" data-lang="html">
+import RightText from './SharedComponents/Elements/S01-RightText'
+
+const text = {
+  icon: '🎅',
+  label: 'wtf',
+  h3: 'What the heck is a break clause?','
+  one: 'A break clause allows us (or you!) to end the contract with just 30 days’ notice. So if you choose a break clause at 6 months, you and we have the option to end the tenancy early.'
+}
+
+&lt;RightText copy={text} /&gt;
+            </code></pre>
+          </div>
+          <div class="pattern-description"></div>
+        </details>
+
+        <div class="pattern-preview">
+          <section class="main">
+            <div class="santa">
+              <div role="img" aria-label="wtf">🎅</div>
+              <h3 class="santa-h3">What the heck is a break clause?</h3>
+            </div>
+            <div>
+              <div class="regular">A break clause allows us (or you!) to end the contract with just 30 days’ notice. So if you choose a break clause at 6 months, you and we have the option to end the tenancy early.</div>
+              <div>
+            </div>
+          </section>
+        </div>
+    </div>
     </main>          
   </div>
 </body>
